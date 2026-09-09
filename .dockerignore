@@ -1,0 +1,28 @@
+# Python bytecode & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files containing sensitive keys
+.env
+.env.*
+
+# Local virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Git metadata
+.git
+.gitignore
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+.dockerignore
